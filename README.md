@@ -1,11 +1,8 @@
-# svd-facial-recognition
-Facial recognition of emotions using singular value decomposition
-
 # Facial Recognition with Linear Systems
 
 This repository contains a technical research project exploring facial recognition using linear algebra, with a focus on Singular Value Decomposition (SVD) and projection-based classification. The project demonstrates how high-dimensional image data can be modeled using linear systems to analyze and distinguish facial expressions associated with different human emotions.
 
-This work was developed as a capstone-level technical report for an undergraduate course in linear algebra and applied mathematics.
+This work was developed as a technical report for an undergraduate course.
 
 ---
 
@@ -66,19 +63,6 @@ Each emotion class contains a different number of images, resulting in matrices 
 
 ---
 
-## Repository Structure
-
-.
-├── paper/
-│   └── Facial_Recognition_with_Linear_Systems.pdf
-├── code/
-│   ├── preprocessing.R
-│   ├── svd_models.R
-│   └── evaluation.R
-└── README.md
-
----
-
 ## Methods Summary
 
 - Approach: Linear subspace classification
@@ -97,35 +81,32 @@ These findings highlight the effectiveness of SVD in capturing dominant structur
 
 ---
 
-## Author Contributions
+## Author Contribution
 
 This project was completed collaboratively. Contributions are summarized as follows:
 
 - Roger Carranza Aronne
-  - Led the mathematical exposition and full written report
+  - Full written report
   - Developed the LaTeX document and final presentation
-  - Contributed to data preprocessing, model implementation, and evaluation
+  - Contributed to methodology design
   - Interpreted results and synthesized conclusions
 
-- [Collaborator Name]
-  - Co-designed the project methodology and experimental framework
-  - Implemented the majority of the image-processing and SVD modeling code
-  - Assisted with data preparation and experimentation
 
-The project methodology and overall structure were designed jointly. The written exposition and final presentation were led by Roger Carranza Aronne.
+The project methodology was designed jointly by the primary contributors. The written exposition and final presentation were led by Roger Carranza Aronne.
 
 ---
 
 ## Authors
 
 - Roger Carranza Aronne
-- [Collaborator Name]
+- David Trinh
+- Jefferson Cunin
 
 ---
 
 ## Context
 
-This project was completed as Technical Report 4 for MATH 365: Linear Systems at Macalester College (Spring 2025). It serves as both a mathematical exposition of Singular Value Decomposition and a practical application of linear algebra to image-based pattern recognition.
+This project was completed as Technical Report for MATH 365: Computational Linear Algebra at Macalester College (Spring 2025). It serves as both a mathematical exposition of Singular Value Decomposition and a practical application of linear algebra to image-based pattern recognition.
 
 ---
 
